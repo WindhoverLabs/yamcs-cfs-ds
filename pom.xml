@@ -38,6 +38,13 @@
 			<artifactId>yamcs-core</artifactId>
 			<version>${yamcsVersion}</version>
 		</dependency>
+		
+				<dependency>
+			<groupId>org.yamcs</groupId>
+			<artifactId>tests</artifactId>
+			<version>${yamcsVersion}</version>
+			<scope>test</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.yamcs</groupId>
@@ -60,6 +67,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 
 	<reporting>
 		<plugins>
